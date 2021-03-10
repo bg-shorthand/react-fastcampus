@@ -8,7 +8,7 @@ const buttonElement = h('button', {
   onClick(e) {
     console.log(e.target);
   },
-  },
+},
   '업로드 중',
   iconElement
 )

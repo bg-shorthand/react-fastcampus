@@ -1,7 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import { createElement as h } from 'react'
+import logo from '../../assets/logo.svg';
 
+// 함수 콤포넌트
 function App() {
+  // React Element, Fragment
   return (
     <div className="App">
       <header className="App-header">
